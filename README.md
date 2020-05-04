@@ -14,3 +14,20 @@ to get the help of the commands use
 ```
 python backdoor_server.py --help
 ```
+```
+usage: backdoor_server.py [-h] [-sa SERVERACTNAME] [-sp SERVERACTPWD]
+                          [-va VICTIMACTNAME] [-vp VICTIMACTPWD]
+
+Backdoor using FB
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -sa SERVERACTNAME, --serveractname SERVERACTNAME
+                        attacker 'fb' act name
+  -sp SERVERACTPWD, --serveractpwd SERVERACTPWD
+                        attacker 'fb' act pwd
+  -va VICTIMACTNAME, --victimactname VICTIMACTNAME
+                        victim 'fb' act name
+  -vp VICTIMACTPWD, --victimactpwd VICTIMACTPWD
+                        victim 'fb' act pwd
+```
