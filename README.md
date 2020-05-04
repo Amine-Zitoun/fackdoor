@@ -7,12 +7,23 @@ First create 2 random facebook accounts
 then run the backdoor_server script with the server_act username and the server_act pwd
 and victim_act username and the victim_act pwd
 
+clone the github repo
 ```
-python backdoor_server.py -sa <server_act username> -sp <server_act pwd> -va <victim_act username> -vp <victim_act pwd>
+$ git clone https://github.com/Amine-Zitoun/fackdoor
 ```
-to get the help of the commands use
+install dependencies
 ```
-python backdoor_server.py --help
+$ cd fackdoor
+$ pip install -r requirements.txt
+```
+then run the backdoor_server.py scrip
+
+```
+$ python backdoor_server.py -sa <server_act username> -sp <server_act pwd> -va <victim_act username> -vp <victim_act pwd>
+```
+to get all the commands use
+```
+$ python backdoor_server.py --help
 ```
 ```
 usage: backdoor_server.py [-h] [-sa SERVERACTNAME] [-sp SERVERACTPWD]
